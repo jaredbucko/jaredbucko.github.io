@@ -18,7 +18,15 @@ h2 {
   text-align: right;
 }
 
-a.class1:link, a.class1:visited {
+a.class1 {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+}
+
+a.class1:visited {
   color: white;
   text-decoration: none;
 }
@@ -26,7 +34,6 @@ a.class1:link, a.class1:visited {
 a.class1:hover {
   text-decoration: none;
   background-color: #444;
-  width: 30%;
 }
 
 a.class2:link, a.class2:visited {
@@ -35,7 +42,7 @@ a.class2:link, a.class2:visited {
 }
 
 a.class2:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .flex-container1 {
@@ -56,6 +63,19 @@ a.class2:hover {
   font-family: 'Roboto', sans-serif;  
   font-size: 18px;
   letter-spacing: 10px;
+  width: 100%;
+}
+
+.mainleft h3 {
+  font-size: 18px;
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  padding: 18px 0px 18px 0px;
+}
+
+.mainleft h3:hover {
+  background-color: #444;
 }
 
 .flex-container2 {
