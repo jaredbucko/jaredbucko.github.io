@@ -1,1 +1,1 @@
-# Jared Bucko Cover Page
+# redirects to portfolio site
